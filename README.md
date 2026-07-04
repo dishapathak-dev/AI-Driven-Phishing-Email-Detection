@@ -53,6 +53,35 @@ CEAS 2008 Email Dataset
 5. Model Training
 6. Model Evaluation
 7. Prediction
+## 📊 Results
+
+### Model Comparison
+
+![Accuracy Comparison](model_accuracy.png)
+
+---
+
+### Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+---
+
+### Class Distribution
+
+![Class Distribution](class_distribution.png)
+
+---
+
+### Phishing Word Cloud
+
+![Phishing Word Cloud](phishing_wordcloud.png)
+
+---
+
+### Legitimate Email Word Cloud
+
+![Legitimate Word Cloud](legitimate_wordcloud.png)
 
 ## 👩‍💻 Author
 
