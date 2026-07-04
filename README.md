@@ -1,8 +1,14 @@
 # 🛡️ AI-Driven Phishing Email Detection Using NLP
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![NLP](https://img.shields.io/badge/NLP-TF--IDF-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 ## 📖 Overview
 
-This project uses **Natural Language Processing (NLP)** and **Machine Learning** to detect phishing emails automatically. Email text is cleaned, transformed using TF-IDF, and classified using multiple machine learning algorithms.
+This project detects phishing emails using Natural Language Processing (NLP) and Machine Learning. Email content is cleaned, transformed into TF-IDF features, and classified using multiple machine learning algorithms.
+
 
 ## 🚀 Features
 
@@ -55,34 +61,28 @@ CEAS 2008 Email Dataset
 7. Prediction
 ## 📊 Results
 
-### Model Comparison
-
-![Accuracy Comparison](model_accuracy.png)
-
----
+| Model | Accuracy |
+|--------|----------|
+| Logistic Regression | **99.49%** |
+| Naive Bayes | **97.37%** |
+| Random Forest | **99.54%** |
+| 🏆 Neural Network | **99.57%** |
 
 ### Confusion Matrix
 
 ![Confusion Matrix](confusion_matrix.png)
 
----
+### Model Accuracy
+
+![Model Accuracy](model_accuracy.png)
 
 ### Class Distribution
 
 ![Class Distribution](class_distribution.png)
 
----
-
 ### Phishing Word Cloud
 
-![Phishing Word Cloud](phishing_wordcloud.png)
-
----
-
-### Legitimate Email Word Cloud
-
-![Legitimate Word Cloud](legitimate_wordcloud.png)
-
+![Word Cloud](phishing_wordcloud.png)
 ## 👩‍💻 Author
 
 **Disha Pathak**
